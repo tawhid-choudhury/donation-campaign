@@ -4,14 +4,28 @@ import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 
 
+const cartLocal = JSON.parse(localStorage.getItem('cart') || "[]")
+
 const Home = () => {
     const [cards, setCards] = useState([]);
+    const [cartItems, setCartItems] = useState(cartLocal);
 
     useEffect(() => {
         fetch('data.json')
             .then(res => res.json())
             .then(data => setCards(data));
-    }, [])
+    }, []);
+
+
+    useEffect(() => {
+        localStorage.setItem('cart', JSON.stringify(cartItems))
+    }, [cartItems])
+
+    const handleCardClick = (b) => {
+        const newCart = [...cartItems, b];
+        setCartItems(newCart);
+    }
+
     return (
         <>
             <div className=''>
@@ -31,7 +45,7 @@ const Home = () => {
             <div className="flex justify-center">
                 <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  max-w-[1320px] m-auto gap-[24px] mb-[100px] items-center justify-center">
                     {
-                        cards.map(card => <Card key={card.id} card={card}></Card>)
+                        cards.map((card, idx) => <Card key={idx} card={card} handleCardClick={handleCardClick}></Card>)
                     }
                 </div>
             </div>

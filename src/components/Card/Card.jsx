@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 
-const Card = ({ card }) => {
+const Card = ({ card, handleCardClick }) => {
+
     const color = card.color;
 
     const inlineStyle = {
@@ -14,11 +15,10 @@ const Card = ({ card }) => {
     };
     const htc = {
         color: `${color}`,
-        // backgroundColor: `${color}26`,
 
     };
     return (
-        <div className={`h-[283px] rounded-lg max-w-[312px]`}
+        <div onClick={() => handleCardClick(card)} className={`h-[283px] rounded-lg max-w-[312px]`}
             style={inlineStyle}
         >
             <div className='max-w-[312px] h-[194px]'>
@@ -34,6 +34,7 @@ const Card = ({ card }) => {
 
 Card.propTypes = {
     card: PropTypes.object,
+    handleCardClick: PropTypes.func,
 };
 
 export default Card;
