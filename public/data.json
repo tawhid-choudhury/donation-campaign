@@ -1,0 +1,99 @@
+[
+    {
+      "name": "Clean water for children",
+      "amount": 290,
+      "category": "Health",
+      "image": "",
+      "description": "Ensuring access to clean and safe drinking water is essential for the health and well-being of children worldwide. It's crucial to invest in water purification infrastructure, sanitation, and education to prevent waterborne diseases and promote a healthier future.",
+      "color": "#0052FF"
+    },
+    {
+      "name": "Good education",
+      "amount": 290,
+      "category": "Education",
+      "image": "",
+      "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "color": "#FF444A"
+    },
+    {
+      "name": "Access to Healthcare",
+      "amount": 290,
+      "category": "Health",
+      "image": "",
+      "description": "Access to quality healthcare services is a fundamental right for all individuals. Investments in healthcare facilities, trained medical professionals, and community health programs can improve the overall well-being of communities and reduce health disparities.",
+      "color": "#79C23F"
+    },
+    {
+      "name": "Nutrition for All",
+      "amount": 290,
+      "category": "Food",
+      "image": "",
+      "description": "Adequate nutrition is vital for everyone's growth and development. Initiatives to provide nutritious food, educate communities about healthy eating, and support local agriculture can help ensure that everyone has access to nourishing meals.",
+      "color": "#F87147"
+    },
+    {
+      "name": "Quality Education",
+      "amount": 290,
+      "category": "Education",
+      "image": "",
+      "description": "Quality education is the cornerstone of personal and societal growth. It involves dedicated teachers, well-equipped classrooms, and an inclusive curriculum that fosters critical thinking and creativity.",
+      "color": "#FF444A"
+    },
+    {
+      "name": "Access to Medical Care",
+      "amount": 290,
+      "category": "Health",
+      "image": "",
+      "description": "Access to medical care is a fundamental right that can improve overall well-being. This includes medical facilities, qualified healthcare professionals, and preventive health programs.",
+      "color": "#79C23F"
+    },
+    {
+      "name": "Nutrition Programs",
+      "amount": 290,
+      "category": "Food",
+      "image": "",
+      "description": "Nutrition programs aim to provide balanced and nutritious meals to communities in need. They also promote awareness of healthy eating habits and support local food production.",
+      "color": "#F87147"
+    },
+    {
+      "name": "Clean Air Initiatives",
+      "amount": 290,
+      "category": "Health",
+      "image": "",
+      "description": "Access to clean and fresh air is vital for overall health. Initiatives to reduce air pollution, promote green spaces, and encourage sustainable transportation can improve air quality and public health.",
+      "color": "#0052FF"
+    },
+    {
+      "name": "Sustainable Agriculture",
+      "amount": 290,
+      "category": "Food",
+      "image": "",
+      "description": "Sustainable agriculture practices aim to preserve the environment while producing food. They prioritize eco-friendly farming methods, reduce waste, and promote food security.",
+      "color": "#F87147"
+    },
+    {
+      "name": "Maternal and Child Healthcare",
+      "amount": 290,
+      "category": "Health",
+      "image": "",
+      "description": "Ensuring the well-being of mothers and children is a priority. Access to quality maternal and child healthcare services can lead to healthier families and stronger communities.",
+      "color": "#79C23F"
+    },
+    {
+      "name": "Digital Learning Initiatives",
+      "amount": 290,
+      "category": "Education",
+      "image": "",
+      "description": "Digital learning initiatives harness technology to expand educational opportunities. They provide access to online resources, remote learning, and skill development in the digital age.",
+      "color": "#FF444A"
+    },
+    {
+      "name": "Empowering Tomorrow's Leaders",
+      "amount": 290,
+      "category": "Education",
+      "image": "",
+      "description": "Empowering the next generation of leaders through education is crucial for societal progress. Quality education provides the knowledge and skills needed to address global challenges and create a better future.",
+      "color": "#FF444A"
+    }
+  ]
+  

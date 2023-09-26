@@ -1,7 +1,11 @@
-import banner from '../../assets/banner.png'
+// import banner from '../../assets/banner.png'
+
+import { useState } from "react";
 
 
 const Home = () => {
+    const [cards, setCards] = useState([]);
+
     return (
         <div className=''>
             <div className="hero min-h-[600px]" style={{ backgroundImage: 'url(https://i.ibb.co/0nm027T/banner.png)' }}>
@@ -16,16 +20,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <div className={`bg-[url(${banner})]`}>
-                <div className="h-[600px] flex flex-col justify-center items-center">
-                    <h1 className="text-5xl  text-black  ">I Grow By Helping People In Need</h1>
-                    <div>
-                        <input className="border-2 " type="text" />
-                        <button>Search</button>
-                    </div>
-                </div>
-            </div> */}
         </div>
+
     );
 };
 
