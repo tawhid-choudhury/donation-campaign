@@ -9,6 +9,7 @@ import Root from './components/Root/Root';
 import Home from './components/Home/Home';
 import Donations from './components/Donations/Donations';
 import Details from './components/Details/Details';
+import Stats from './components/Stats/Stats';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/statistics",
-        element: <h1>stats</h1>
+        element: <Stats></Stats>
       },
       {
         path: "/details/:id",
