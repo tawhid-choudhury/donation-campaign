@@ -4,8 +4,6 @@ import { useEffect, useState } from "react";
 import Card from "../Card/Card";
 
 
-const cartLocal = JSON.parse(localStorage.getItem('cart') || "[]")
-
 const Home = () => {
     const [cards, setCards] = useState([]);
     const [filtered, setfiltered] = useState([]);
