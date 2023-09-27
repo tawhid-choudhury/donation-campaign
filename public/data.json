@@ -1,99 +1,136 @@
 [
     {
+      "id":1,
       "name": "Clean water for children",
       "amount": 290,
       "category": "Health",
       "image": "https://i.ibb.co/VmqWX99/clean-Water.jpg",
       "description": "Ensuring access to clean and safe drinking water is essential for the health and well-being of children worldwide. It's crucial to invest in water purification infrastructure, sanitation, and education to prevent waterborne diseases and promote a healthier future.",
-      "color": "#0052FF"
+      "color": "#0052FF",
+      "colorBG": "#0052FF26",
+      "colorCBG": "#0052FF26"
     },
     {
+      "id": 2,
       "name": "Good education",
       "amount": 290,
       "category": "Education",
       "image": "https://i.ibb.co/tCgSwt5/education.jpg",
       "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-      "color": "#FF444A"
+      "color": "#FF444A",
+      "colorBG": "#FF444A26",
+      "colorCBG": "#FF444A26"
     },
     {
+      "id": 3,
       "name": "Warmth for All",
       "amount": 290,
       "category": "Clothing",
       "image": "https://i.ibb.co/vjrHqVL/warmth-for-all.jpg",
       "description": "Help us spread warmth and comfort to those less fortunate by donating warm clothing. Your generosity can bring solace during cold seasons and improve the lives of those in our community.",
-      "color": "#79C23F"
+      "color": "#79C23F",
+      "colorBG": "#79C23F26",
+      "colorCBG": "#79C23F26"
+      
     },
     {
+      "id": 4,
       "name": "Nutrition for All",
       "amount": 290,
       "category": "Food",
       "image": "https://i.ibb.co/z5xgnjc/nutrition-for-all.jpg",
       "description": "Adequate nutrition is vital for everyone's growth and development. Initiatives to provide nutritious food, educate communities about healthy eating, and support local agriculture can help ensure that everyone has access to nourishing meals.",
-      "color": "#F87147"
+      "color": "#F87147",
+      "colorBG": "#F8714726",
+      "colorCBG": "#F8714726"
     },
     {
+      "id": 5,
       "name": "Clothing Donation",
       "amount": 290,
       "category": "Clothing",
       "image": "https://i.ibb.co/Xkq2GYh/cloths-Done.jpg",
       "description": "Your clothing donation can help provide essential clothing items to those in need. Join us in making a positive impact on the lives of individuals and families by contributing to our clothing drive.",
-      "color": "#79C23F"
+      "color": "#79C23F",
+      "colorBG": "#79C23F26",
+      "colorCBG": "#79C23F26"
     },
     {
+      "id": 6,
       "name": "Access to Medical Care",
       "amount": 290,
       "category": "Health",
       "image": "https://i.ibb.co/J51pbnk/healthcare.jpg",
       "description": "Access to medical care is a fundamental right that can improve overall well-being. This includes medical facilities, qualified healthcare professionals, and preventive health programs.",
-      "color": "#0052FF"
+      "color": "#0052FF",
+      "colorBG": "#0052FF26",
+      "colorCBG": "#0052FF26"
     },
     {
+      "id": 7,
       "name": "Used Clothing Drive",
       "amount": 290,
       "category": "Clothing",
       "image": "https://i.ibb.co/vBCPkNK/drive.jpg",
       "description": "A used clothing drive aims to collect gently used clothing items from the community to provide warmth and clothing for those in need. Your contribution can make a significant difference in the lives of individuals who require clothing assistance.",
-      "color": "#79C23F"
+      "color": "#79C23F",
+      "colorBG": "#79C23F26",
+      "colorCBG": "#79C23F26"
     },
     {
+      "id": 8,
       "name": "Clean Air Initiatives",
       "amount": 290,
       "category": "Health",
       "image": "https://i.ibb.co/W0frNGm/cleanair.jpg",
       "description": "Access to clean and fresh air is vital for overall health. Initiatives to reduce air pollution, promote green spaces, and encourage sustainable transportation can improve air quality and public health.",
-      "color": "#0052FF"
+      "color": "#0052FF",
+      "colorBG": "#0052FF26",
+      "colorCBG": "#0052FF26"
     },
     {
+      "id": 9,
       "name": "Sustainable Agriculture",
       "amount": 290,
       "category": "Food",
       "image": "https://i.ibb.co/c3jmj5P/sustainable-agriculture.jpg",
       "description": "Sustainable agriculture practices aim to preserve the environment while producing food. They prioritize eco-friendly farming methods, reduce waste, and promote food security.",
-      "color": "#F87147"
+      "color": "#F87147",
+      "colorBG": "#F8714726",
+      "colorCBG": "#F8714726"
     },
     {
+      "id": 10,
       "name": "Maternal Healthcare",
       "amount": 290,
       "category": "Health",
       "image": "https://i.ibb.co/qrm3MN4/maternal.jpg",
       "description": "Ensuring the well-being of mothers and children is a priority. Access to quality maternal and child healthcare services can lead to healthier families and stronger communities.",
-      "color": "#0052FF"
+      "color": "#0052FF",
+      "colorBG": "#0052FF26",
+      "colorCBG": "#0052FF26"
     },
     {
+      "id": 11,
       "name": "Digital Learning ",
       "amount": 290,
       "category": "Education",
       "image": "https://i.ibb.co/wzmdbCF/digi-lear.jpg",
       "description": "Digital learning initiatives harness technology to expand educational opportunities. They provide access to online resources, remote learning, and skill development in the digital age.",
-      "color": "#FF444A"
+      "color": "#FF444A",
+      "colorBG": "#FF444A26",
+      "colorCBG": "#FF444A26"
     },
     {
+      "id": 12,
       "name": "Empowering Leaders",
       "amount": 290,
       "category": "Education",
       "image": "https://i.ibb.co/cyj7F7S/empower.jpg",
       "description": "Empowering the next generation of leaders through education is crucial for societal progress. Quality education provides the knowledge and skills needed to address global challenges and create a better future.",
-      "color": "#FF444A"
+      "color": "#FF444A",
+      "colorBG": "#FF444A26",
+      "colorCBG": "#FF444A26"
     }
   ]
   
