@@ -1,8 +1,26 @@
-# React + Vite
+## Assignment 8:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### by Tawhid Al Muhaimin Choudhury
 
-Currently, two official plugins are available:
+Features of this project:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- There is a functional Search bar that can filter the wanted category
+- This web app is done using react routes
+- there are three main routes: Home, Donation, Statistics,
+- Donations keep track of all the donations the user has made
+- Statistics show a pie chart that illustrates the amount the user has donated and the remaining amount
+- there is a Dynamic details page for each card
+- 12 fake data have been implemented into this project
+- Each data have the following
+  - Picture as **"image"**
+  - Title as **"name"**
+  - **category**
+  - Color for category_bg as **"colorCBG"**
+  - Color for card_bg as **"colorBG"**
+  - Color for text and button background as **"color"**
+  - **description**
+  - Price as **"amount"**
+- A navbar following all the requirements
+- A banner following all the mandatory requirements
+- A homepage, donation page and stats page following all the requirements
+- 200.html added to fix the reload issue with surge
