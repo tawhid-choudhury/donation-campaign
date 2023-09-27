@@ -84,6 +84,10 @@ const Stats = () => {
 
 
             }
+            <div className="mt-8 md:flex justify-center gap-[200px] text-center">
+                <p>Your Donation <span className="bg-[#00C49F]"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></p>
+                <p>Reamining Donation <span className="bg-[#FF444A]">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
+            </div>
         </div>
     );
 };
