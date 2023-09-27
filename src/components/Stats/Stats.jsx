@@ -15,6 +15,7 @@ const Stats = () => {
             setDonCards(donateds);
         } else {
             setNofound("no data found")
+            console.log(noFound);
         }
     }, [])
     const length = donCards.length;
@@ -42,45 +43,44 @@ const Stats = () => {
     return (
         <div className="max-w-[1320px] m-auto">
             {
-                noFound ? <p>{noFound}</p> :
-                    <div>
-                        <div className="hidden md:flex items-center justify-center" width="100%" height="100%">
-                            <PieChart width={500} height={500}>
-                                <Pie
-                                    data={data}
-                                    cx="50%"
-                                    cy="50%"
-                                    labelLine={false}
-                                    label={renderCustomizedLabel}
-                                    outerRadius={250}
-                                    fill="#8884d8"
-                                    dataKey="value"
-                                >
-                                    {data.map((entry, index) => (
-                                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                                    ))}
-                                </Pie>
-                            </PieChart>
-                        </div>
-                        <div className="md:hidden flex items-center justify-center" width="100%" height="100%">
-                            <PieChart width={300} height={300}>
-                                <Pie
-                                    data={data}
-                                    cx="50%"
-                                    cy="50%"
-                                    labelLine={false}
-                                    label={renderCustomizedLabel}
-                                    outerRadius={150}
-                                    fill="#8884d8"
-                                    dataKey="value"
-                                >
-                                    {data.map((entry, index) => (
-                                        <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                                    ))}
-                                </Pie>
-                            </PieChart>
-                        </div>
+                <div>
+                    <div className="hidden md:flex items-center justify-center" width="100%" height="100%">
+                        <PieChart width={500} height={500}>
+                            <Pie
+                                data={data}
+                                cx="50%"
+                                cy="50%"
+                                labelLine={false}
+                                label={renderCustomizedLabel}
+                                outerRadius={250}
+                                fill="#8884d8"
+                                dataKey="value"
+                            >
+                                {data.map((entry, index) => (
+                                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                                ))}
+                            </Pie>
+                        </PieChart>
                     </div>
+                    <div className="md:hidden flex items-center justify-center" width="100%" height="100%">
+                        <PieChart width={300} height={300}>
+                            <Pie
+                                data={data}
+                                cx="50%"
+                                cy="50%"
+                                labelLine={false}
+                                label={renderCustomizedLabel}
+                                outerRadius={150}
+                                fill="#8884d8"
+                                dataKey="value"
+                            >
+                                {data.map((entry, index) => (
+                                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                                ))}
+                            </Pie>
+                        </PieChart>
+                    </div>
+                </div>
 
 
             }
