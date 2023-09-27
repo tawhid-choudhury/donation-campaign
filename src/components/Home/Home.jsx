@@ -21,7 +21,7 @@ const Home = () => {
         localStorage.setItem('cart', JSON.stringify(cartItems))
     }, [cartItems])
 
-    const handleCardClick = (b) => {
+    const handledonate = (b) => {
         const newCart = [...cartItems, b];
         setCartItems(newCart);
     }
@@ -45,7 +45,7 @@ const Home = () => {
             <div className="flex justify-center">
                 <div className="mt-[100px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4  max-w-[1320px] m-auto gap-[24px] mb-[100px] items-center justify-center">
                     {
-                        cards.map((card, idx) => <Card key={idx} card={card} handleCardClick={handleCardClick}></Card>)
+                        cards.map((card, idx) => <Card key={idx} card={card} handledonate={handledonate}></Card>)
                     }
                 </div>
             </div>
